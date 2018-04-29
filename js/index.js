@@ -1,4 +1,5 @@
-    clippy.load('Clippy', function(agent) {
+var easter_egg = new Konami(function() { 
+clippy.load('Clippy', function(agent) {
         agent.show();
       agent.moveTo(200,200);
         agent.speak('New Windows means new opportunities!');
