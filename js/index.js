@@ -34,3 +34,4 @@ agent.speak('hum... likey likey?');
   agent.play('Idle');     
      // agent.stop();
 });
+});
