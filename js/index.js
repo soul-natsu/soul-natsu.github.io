@@ -1,7 +1,3 @@
-var str1 = "NASA";
-var text1 = str1.link("https://solarsystem.nasa.gov/small-bodies/comets/in-depth/");
-var str2 = "Harvard";
-var text2 = str2.link("http://www.icq.eps.harvard.edu/");
 var easter_egg = new Konami(function() { 
 clippy.load('Clippy', function(agent) {
         agent.show();
@@ -14,11 +10,10 @@ clippy.load('Clippy', function(agent) {
 	agent.play('GetTechy');
           agent.play('Processing');
          agent.moveTo(200,150);
-        agent.speak('Thanks to' + text1 + ', ' + text2);
+        agent.speak('Thanks to NASA, Harvard, and Wikimedia Commons.');
+	agent.speak('To see the pages go to the Sources tab in the Conact Me page!');
      agent.moveTo(200,100);
-        agent.speak('Or maybe not??');
       agent.play('EmptyTrash');
- 
              agent.moveTo(300,150);
         agent.speak('Until we meet again, clippy says bye!');
       agent.play('GoodBye');
@@ -30,7 +25,7 @@ clippy.load('Clippy', function(agent) {
  agent.play('GestureUp');
 agent.speak('hum... likey likey?');
  //     agent.hide();
-  agent.play('Idle');     
-     // agent.stop();
+ agent.play('GoodBye');   
+    agent.stop();
 					});
 						});
