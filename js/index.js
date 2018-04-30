@@ -1,8 +1,8 @@
 var easter_egg = new Konami(function() { 
 clippy.load('Clippy', function(agent) {
         agent.show();
+	agent.moveTo(200,200);
 	   agent.play('Searching');
-      agent.moveTo(200,200);
         agent.speak('Ah there you are!');
       agent.speak('You\'ve discovered the Easter Egg!');
       agent.moveTo(100,100);
