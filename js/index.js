@@ -26,6 +26,6 @@ clippy.load('Clippy', function(agent) {
 agent.speak('hum... likey likey?');
  //     agent.hide();
  agent.play('GoodBye');   
-    agent.stop();
+    agent.hide();
 					});
 						});
