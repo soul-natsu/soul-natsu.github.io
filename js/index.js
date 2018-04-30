@@ -6,8 +6,8 @@ clippy.load('Clippy', function(agent) {
         agent.speak('Ah there you are!');
       agent.speak('You\'ve discovered the Easter Egg!');
       agent.moveTo(100,100);
-        agent.speak('You never know... They might NEED me!');
-      agent.play('GetTechy');
+	agent.speak('I\'m here to tell you the sources of Luca\'s site! ');
+	agent.play('GetTechy');
           agent.play('Processing');
          agent.moveTo(400,150);
         agent.speak('They might have been looking for me?');
