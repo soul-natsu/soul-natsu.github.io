@@ -14,7 +14,7 @@ clippy.load('Clippy', function(agent) {
 	agent.play('GetTechy');
           agent.play('Processing');
          agent.moveTo(200,150);
-        agent.speak('Thanks to' + text1, + text2);
+        agent.speak('Thanks to' + text1 + ', ' + text2);
      agent.moveTo(200,100);
         agent.speak('Or maybe not??');
       agent.play('EmptyTrash');
