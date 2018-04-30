@@ -1,21 +1,16 @@
 var easter_egg = new Konami(function() { 
 clippy.load('Clippy', function(agent) {
         agent.show();
+	   agent.play('Searching');
       agent.moveTo(200,200);
-        agent.speak('New Windows means new opportunities!');
-   // play a given animation
-   agent.play('GetTechy');
-      
-    //  alert (agent.animations());
-
+        agent.speak('Ah there you are!');
+      agent.speak('You\'ve discovered the Easter Egg!');
       agent.moveTo(100,100);
         agent.speak('You never know... They might NEED me!');
-      agent.play('Processing');
-    
+      agent.play('GetTechy');
+          agent.play('Processing');
          agent.moveTo(400,150);
         agent.speak('They might have been looking for me?');
-      agent.play('Searching');
-
      agent.moveTo(200,100);
         agent.speak('Or maybe not??');
       agent.play('EmptyTrash');
