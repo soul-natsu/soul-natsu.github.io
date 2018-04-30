@@ -7,7 +7,6 @@ clippy.load('Clippy', function(agent) {
       agent.speak('You\'ve discovered the Easter Egg!');
       agent.moveTo(100,100);
 	agent.speak('I\'m here to tell you the sources of Luca\'s site! ');
-	agent.play('GetTechy');
           agent.play('Processing');
          agent.moveTo(200,150);
         agent.speak('Thanks to NASA, Harvard, and Wikimedia Commons.');
