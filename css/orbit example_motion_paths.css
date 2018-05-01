@@ -15,7 +15,7 @@
     ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
   }
   ;
-  animation:gwd-motion-path-1we4-keys-x 2s linear 0s 1 normal forwards;
+  animation:gwd-motion-path-1we4-keys-x 2s linear 0s infinite normal forwards;
   transform:translate3d(0px, 0px, 0px);
 }
 @keyframes gwd-motion-path-1we4-keys-x {
