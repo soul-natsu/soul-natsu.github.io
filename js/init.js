@@ -1,3 +1,4 @@
+$('#navtabswipe').tabs({ 'swipeable': true });
 (function($){
   $(function(){
 
