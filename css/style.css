@@ -46,4 +46,5 @@ footer.page-footer {
 
 iframe {
   border: none;
+  overflow: hidden;
 }
